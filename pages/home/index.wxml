@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <wxc-toast is-show="{{true}}" text="提示成功!"></wxc-toast>
+  <menu class="menu"></menu>
+</view>
