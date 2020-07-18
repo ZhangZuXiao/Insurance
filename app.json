@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "usingComponents": {
+    "wxc-button": "../dist/packages/@minui/wxc-button/dist/index",
+    "wxc-icon": "../dist/packages/@minui/wxc-icon/dist/index",
+    "wxc-input": "../dist/packages/@minui/wxc-input/dist/index",
+    "wxc-list": "../dist/packages/@minui/wxc-list/dist/index",
+    "wxc-mask": "../dist/packages/@minui/wxc-mask/dist/index",
+    "wxc-notice": "../dist/packages/@minui/wxc-notice/dist/index",
+    "wxc-progress": "../dist/packages/@minui/wxc-progress/dist/index",
+    "wxc-search": "../dist/packages/@minui/wxc-search/dist/index",
+    "wxc-select": "../dist/packages/@minui/wxc-select/dist/index",
+    "wxc-tab": "../dist/packages/@minui/wxc-tab/dist/index"
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

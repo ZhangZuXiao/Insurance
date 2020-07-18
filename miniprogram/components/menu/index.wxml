@@ -1,6 +1,0 @@
-<!--components/menu/index.wxml-->
-<view>
- <view class="item-menu"></view>
- <view class="item-menu"></view>
- <view class="item-menu"></view>
-</view>
