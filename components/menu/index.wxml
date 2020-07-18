@@ -1,6 +1,12 @@
 <!--components/menu/index.wxml-->
 <view class="chunk-menu">
- <view class="item-menu">1</view>
- <view class="item-menu">2</view>
- <view class="item-menu">3</view>
+ <view class="item-menu">
+   <wxc-icon size="36" type="home" color="#fb4747"></wxc-icon>
+ </view>
+ <view class="item-menu">
+   <wxc-icon size="36" type="camera" color="#fb4747"></wxc-icon>
+ </view>
+ <view class="item-menu">
+   <wxc-icon size="36" type="alipay" color="#fb4747"></wxc-icon>
+ </view>
 </view>

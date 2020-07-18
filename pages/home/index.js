@@ -3,15 +3,36 @@ const app = getApp()
 
 Page({
   data: {
-    avatarUrl: './user-unlogin.png'
+    imgUrls: [
+      '../../image/banner3.png',
+      '../../image/banner.jpg',
+      '../../image/banner2.png'
+    ],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    interval: 3000,
+    duration: 500
   },
 
-  onLoad: function() {
-    if (!wx.cloud) {
-      wx.redirectTo({
-        url: '../chooseLib/chooseLib',
-      })
-      return
-    }
+  changeIndicatorDots: function (e) {
+    this.setData({
+      indicatorDots: !this.data.indicatorDots
+    })
+  },
+  changeAutoplay: function (e) {
+    this.setData({
+      autoplay: !this.data.autoplay
+    })
+  },
+  intervalChange: function (e) {
+    this.setData({
+      interval: e.detail.value
+    })
+  },
+  durationChange: function (e) {
+    this.setData({
+      duration: e.detail.value
+    })
   }
 })

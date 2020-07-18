@@ -1,5 +1,59 @@
 <!--index.wxml-->
-<view class="container">
-  <wxc-toast is-show="{{true}}" text="提示成功!"></wxc-toast>
+<view class="page">
+  <view class="search-wrap">
+    <wxc-search 
+      class="search" 
+      showClear="{{false}}" 
+      bg-color="rgba(255, 255, 255, 1)"
+      color="#383838"
+      icon-color="#cacff1" 
+      ph-color="#cacff1" 
+      placeholder="请输入保险服务">
+    </wxc-search>
+  </view>
+  <view class="view-panel">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}" wx:key="*this">
+            <swiper-item class="swiper-item">
+                <image class="banner-img" src="{{item}}" class="slide-image" width="" height="150"/>
+            </swiper-item>
+        </block>
+    </swiper>
+  </view>
+  <view class="navigation-panel">
+    <view class="nav-title">服务项目&商户</view>
+    <view class="nav-item nav-item-bottom nav-item-right">
+      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="item-text">检车服务</view>
+    </view>
+    <view class="nav-item nav-item-bottom nav-item-right">
+      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="item-text">车辆保养</view>
+    </view>
+    <view class="nav-item nav-item-bottom nav-item-right">
+      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="item-text">代驾服务</view>
+    </view>
+    <view class="nav-item nav-item-bottom ">
+      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="item-text">费用管理</view>
+    </view>
+    <view class="nav-item nav-item-right">
+      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="item-text">洗车服务</view>
+    </view>
+    <view class="nav-item nav-item-right">
+      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="item-text">检车商户</view>
+    </view>
+    <view class="nav-item nav-item-right">
+      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="item-text">保养商户</view>
+    </view>
+    <view class="nav-item">
+      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="item-text">洗车商户</view>
+    </view>
+  </view>
   <menu class="menu"></menu>
 </view>
