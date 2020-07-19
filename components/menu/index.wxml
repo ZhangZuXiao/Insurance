@@ -1,12 +1,12 @@
 <!--components/menu/index.wxml-->
 <view class="chunk-menu">
- <view class="item-menu">
+ <view class="item-menu" bind:tap="toHome">
    <wxc-icon size="36" type="home" color="#fb4747"></wxc-icon>
  </view>
- <view class="item-menu">
+ <view class="item-menu" bind:tap="toMerchants">
    <wxc-icon size="36" type="camera" color="#fb4747"></wxc-icon>
  </view>
- <view class="item-menu">
+ <view class="item-menu" bind:tap="toUser">
    <wxc-icon size="36" type="alipay" color="#fb4747"></wxc-icon>
  </view>
 </view>

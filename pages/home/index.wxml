@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="page">
-  <view class="search-wrap">
+  <view class="search-wrap" bindtap="tpPage">
     <wxc-search 
       class="search" 
       showClear="{{false}}" 
@@ -15,14 +15,14 @@
     <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
         <block wx:for="{{imgUrls}}" wx:key="*this">
             <swiper-item class="swiper-item">
-                <image class="banner-img" src="{{item}}" class="slide-image" width="" height="150"/>
+                <image class="banner-img" src="{{item}}" width="" height="150"/>
             </swiper-item>
         </block>
     </swiper>
   </view>
   <view class="navigation-panel">
-    <view class="nav-title">服务项目&商户</view>
-    <view class="nav-item nav-item-bottom nav-item-right">
+    <view class="nav-title">服务项目</view>
+    <view class="nav-item nav-item-bottom nav-item-right" bindtap="toPage" data-url="/pages/home-inspection/index">
       <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
       <view class="item-text">检车服务</view>
     </view>
@@ -42,7 +42,7 @@
       <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
       <view class="item-text">洗车服务</view>
     </view>
-    <view class="nav-item nav-item-right">
+    <!-- <view class="nav-item nav-item-right">
       <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
       <view class="item-text">检车商户</view>
     </view>
@@ -53,7 +53,7 @@
     <view class="nav-item">
       <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
       <view class="item-text">洗车商户</view>
-    </view>
+    </view> -->
   </view>
-  <menu class="menu"></menu>
+  <!-- <menu class="menu"></menu> -->
 </view>

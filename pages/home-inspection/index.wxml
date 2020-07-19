@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="page">
+  <wxc-notice 
+    scroll="{{true}}" 
+    close="{{true}}" 
+    bg-color="#ff9300" 
+    bg-rgba="rgba(255, 147, 0, 0)" 
+    show-icon="{{true}}" 
+    notice="{{notice}}" 
+    class="wxc-notice">
+  </wxc-notice>
+  <view class="view-panel">
+    <image class="banner-img" src="../../image/bg2.jpg"/>
+  </view>
+  <view class="list-item">
+    <wxc-list
+          wx:for="{{list}}"
+          wx:key="index"
+          class="item"
+          title="{{item.title}}"
+          desc="{{item.slot? '' : item.desc}}"
+          mode="{{index == list.length-1 ? 'none': ''}}"
+          src="{{item.src}}">
+      <view wx:if="{{item.slot && item.desc}}" class="desc-highlight">{{item.desc}}</view>
+    </wxc-list>
+  </view>
+</view>

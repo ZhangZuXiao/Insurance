@@ -44,7 +44,7 @@
   line-height: 0;
   display: block;
 }
-.slide-image {
+.banner-img {
   width: 100%;
   top: 0;
 }

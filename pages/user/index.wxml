@@ -1,0 +1,25 @@
+<!--pages/user/index.wxml-->
+<view class="page-user">
+  <view class="head-vessel">
+   <view class="head-avatar">
+    <view class="head-avatar-rac">
+      <open-data class="avatar" type="userAvatarUrl"></open-data>
+    </view>
+    <open-data class="nickName" type="userNickName"></open-data>
+   </view>
+   <image class="head-img" src="../../image/bg.jpg"></image>
+  </view>
+  <view class="list-item">
+    <wxc-list
+          wx:for="{{list}}"
+          wx:key="index"
+          class="item"
+          title="{{item.title}}"
+          desc="{{item.slot? '' : item.desc}}"
+          mode="{{index == list.length-1 ? 'none': ''}}"
+          src="{{item.src}}">
+      <view wx:if="{{item.slot && item.desc}}" class="desc-highlight">{{item.desc}}</view>
+    </wxc-list>
+  </view>
+  <!-- <menu class="menu"></menu> -->
+</view>

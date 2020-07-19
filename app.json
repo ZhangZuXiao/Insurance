@@ -1,8 +1,10 @@
 {
   "pages":[
     "pages/home/index",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home-inspection/index",
+    "pages/merchants/index",
+    "pages/user/index",
+    "pages/index/index"
   ],
   "usingComponents": {
     "wxc-button": "../dist/packages/@minui/wxc-button/dist/index",
@@ -18,9 +20,27 @@
   },
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#fb4747",
+    "navigationBarTitleText": "保险服务",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "backgroundColor": "#fb4747",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/merchants/index",
+        "text": "商户信息"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人信息"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
