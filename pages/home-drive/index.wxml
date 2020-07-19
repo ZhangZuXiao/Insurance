@@ -1,16 +1,6 @@
 <!--index.wxml-->
 <view class="page">
   <view class="list-item">
-    <!-- <wxc-list
-          wx:for="{{list}}"
-          wx:key="index"
-          class="item"
-          title="{{item.title}}"
-          desc="{{item.slot? '' : item.desc}}"
-          mode="{{index == list.length-1 ? 'none': ''}}"
-          src="{{item.src}}">
-      <view wx:if="{{item.slot && item.desc}}" class="desc-highlight">{{item.desc}}</view>
-    </wxc-list> -->
     <view class="input-wrap">
       <wxc-input type="text" title="代驾公司" placeholder="请选择所属代驾公司" 
         value="{{company}}" bindtap="showSelect"></wxc-input>
@@ -20,5 +10,13 @@
     <picker class="picker-select" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
       <view class="picker"></view>
     </picker>
+    <view class="upload-img" bindtap="uploadImg">
+      <image wx:if="{{imgUrl != ''}}" src="{{imgUrl}}"></image>
+      <view wx:else="{{imgUrl == ''}}" class="upload-btn-vessel">
+        <wxc-icon size="60" type="add" color="#999999"></wxc-icon>
+        <view class="upload-hint">点击传车检合格标志</view>
+      </view>
+    </view>
+    <wxc-button type="beauty" class="btn-save">提 交</wxc-button>
   </view>
 </view>

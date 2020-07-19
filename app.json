@@ -3,8 +3,7 @@
     "pages/home/index",
     "pages/home-inspection/index",
     "pages/merchants/index",
-    "pages/user/index",
-    "pages/index/index"
+    "pages/user/index"
   ],
   "usingComponents": {
     "wxc-button": "../dist/packages/@minui/wxc-button/dist/index",

@@ -76,3 +76,28 @@
   height: 60rpx;
   display: block;
 }
+.upload-img {
+  width: 80%;
+  height: 300rpx;
+  margin: 50rpx auto;
+  border: 1px solid #cccccc;
+  border-radius: 6rpx;
+  overflow: hidden;
+}
+.btn-save {
+  width: 368rpx;
+  display: block;
+  margin: 50rpx auto;
+}
+.upload-btn-vessel {
+  width: 100%;
+  height: 200rpx;
+  margin-top: 60rpx;
+  text-align: center;
+  padding: 40rpx 0;
+}
+.upload-hint {
+  font-size: 28rpx;
+  color: #999999;
+  margin-top: 30rpx;
+}
