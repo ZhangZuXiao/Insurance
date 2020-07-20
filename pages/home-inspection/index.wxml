@@ -20,7 +20,9 @@
           title="{{item.title}}"
           desc="{{item.slot? '' : item.desc}}"
           mode="{{index == list.length-1 ? 'none': ''}}"
-          src="{{item.src}}">
+          src="{{item.src}}" 
+          data-url="{{item.url}}"
+          bindtap="checkItem">
       <view wx:if="{{item.slot && item.desc}}" class="desc-highlight">{{item.desc}}</view>
     </wxc-list>
   </view>

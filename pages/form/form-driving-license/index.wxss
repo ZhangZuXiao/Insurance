@@ -1,0 +1,109 @@
+/**index.wxss**/
+
+.page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #f5f5f5;
+  overflow: auto;
+}
+
+.view-panel {
+  width: 100%;
+  height: 360rpx;
+  background: #cccccc;
+  text-align: center;
+  overflow: hidden
+}
+.page-title {
+  width: 100%;
+  font-size: 38rpx;
+  text-align: center;
+  margin: 30rpx 0 50rpx 0;
+}
+
+.view-item {
+  width: 90%;
+  height: 160rpx;
+  padding: 32rpx 20rpx;
+  position: absolute;
+  border-radius: 12rpx;
+  top: 260rpx;
+  margin: auto;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff;
+}
+.nav-item {
+  widows:  33%;
+  text-align: center;
+  padding: 24rpx;
+  border-radius: 12rpx;
+}
+.nav-item:active {
+  background: #f5f5f5;
+}
+.item-text {
+  font-size: 28rpx;
+  line-height: 50rpx;
+  color: #999999;
+}
+.list-item {
+  width: 90%;
+  background: #fff;
+  border-radius: 12rpx;
+  margin: 30rpx auto 30rpx auto;
+  padding: 30rpx 20rpx;
+}
+.banner-img {
+  width: 100%;
+}
+.wxc-notice {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.input-wrap {
+  position: relative;
+}
+.picker-select {
+  width: 90%;
+  margin: auto;
+  height: 60rpx;
+  position: absolute;
+  top: 80rpx;
+  z-index: 999;
+}
+.picker {
+  width: 100%;
+  height: 60rpx;
+  display: block;
+}
+.upload-img {
+  width: 80%;
+  height: 300rpx;
+  margin: 50rpx auto;
+  border: 1px solid #cccccc;
+  border-radius: 6rpx;
+  overflow: hidden;
+}
+.btn-save {
+  width: 368rpx;
+  display: block;
+  margin: 50rpx auto;
+}
+.upload-btn-vessel {
+  width: 100%;
+  height: 200rpx;
+  margin-top: 60rpx;
+  text-align: center;
+  padding: 40rpx 0;
+}
+.upload-hint {
+  font-size: 28rpx;
+  color: #999999;
+  margin-top: 30rpx;
+}

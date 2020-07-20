@@ -17,11 +17,6 @@ Component({
       slot: false,
       src: 'https://s10.mogucdn.com/mlcdn/c45406/170603_6h37fg4074i3a2l2gb92dbbc15k84_38x38.png'
     }, {
-      title: '足迹',
-      desc: '',
-      slot: false,
-      src: 'https://s10.mogucdn.com/mlcdn/c45406/170603_00di1ei7f095j8b996icg79kl91kc_38x38.png'
-    }, {
       title: '我的订单',
       desc: '',
       slot: false,

@@ -3,6 +3,10 @@
     "pages/home/index",
     "pages/home-inspection/index",
     "pages/merchants/index",
+    "pages/form/form-driving-license/index",
+    "pages/form/form-activation-card/index",
+    "pages/form/form-check-site/index",
+    "pages/login/index",
     "pages/user/index"
   ],
   "usingComponents": {
@@ -40,6 +44,11 @@
         "text": "个人信息"
       }
     ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

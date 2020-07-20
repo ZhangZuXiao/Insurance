@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="list-item">
+    <view class="page-title">用户登陆</view>
+    <view class="input-wrap">
+      <wxc-input type="text" title="登陆账号" placeholder="请输入登陆账号"></wxc-input>
+      <wxc-input type="number" title="密码" placeholder="请输入密码"></wxc-input>
+    </view>
+    <wxc-button type="beauty" class="btn-save">提 交</wxc-button>
+  </view>
+</view>

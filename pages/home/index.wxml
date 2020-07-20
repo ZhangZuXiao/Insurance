@@ -34,11 +34,11 @@
       <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
       <view class="item-text">代驾服务</view>
     </view>
-    <view class="nav-item nav-item-bottom " bindtap="toPage" data-url="/pages/home-inspection/index">
+    <view class="nav-item nav-item-bottom " bindtap="toPage" data-url="/pages/login/index">
       <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
       <view class="item-text">费用管理</view>
     </view>
-    <view class="nav-item nav-item-right" bindtap="toPage" data-url="/pages/home-inspection/index">
+    <view class="nav-item nav-item-right" bindtap="toPage" data-url="/pages/form/form-driving-license/index">
       <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
       <view class="item-text">洗车服务</view>
     </view>

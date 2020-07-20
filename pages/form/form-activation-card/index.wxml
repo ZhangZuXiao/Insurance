@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="list-item">
+    <view class="page-title">激活卡券</view>
+    <view class="upload-img">
+      <image wx:if="{{imgUrl != ''}}" class="card-img" src="{{imgUrl}}"></image>
+      <view wx:else="{{imgUrl == ''}}" class="upload-btn-vessel">
+        <wxc-icon size="60" type="add" color="#999999"></wxc-icon>
+        <view class="upload-hint">点击传车检合格标志</view>
+      </view>
+    </view>
+    <view class="input-wrap">
+      <wxc-input type="text" title="卡号" placeholder="请输入检车卡券卡号"></wxc-input>
+      <wxc-input type="text" title="手机号" placeholder="请输入联系电话"></wxc-input>
+      <wxc-input type="number" title="验证码" placeholder="请输入验证码"></wxc-input>
+    </view>
+    <wxc-button type="beauty" class="btn-save">确认提交</wxc-button>
+  </view>
+</view>
