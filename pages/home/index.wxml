@@ -23,23 +23,23 @@
   <view class="navigation-panel">
     <view class="nav-title">服务项目</view>
     <view class="nav-item nav-item-bottom nav-item-right" bindtap="toPage" data-url="/pages/home-inspection/index">
-      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="iconfont icon-swticonjianchezhan01"></view>
       <view class="item-text">检车服务</view>
     </view>
     <view class="nav-item nav-item-bottom nav-item-right" bindtap="toPage" data-url="/pages/home-maintain/index">
-      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="iconfont icon-xinxinicon"></view>
       <view class="item-text">车辆保养</view>
     </view>
     <view class="nav-item nav-item-bottom nav-item-right" bindtap="toPage" data-url="/pages/home-drive/index">
-      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="iconfont icon-drive"></view>
       <view class="item-text">代驾服务</view>
     </view>
     <view class="nav-item nav-item-bottom " bindtap="toPage" data-url="/pages/login/index">
-      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="iconfont icon-feiyongguanli"></view>
       <view class="item-text">费用管理</view>
     </view>
     <view class="nav-item nav-item-right" bindtap="toPage" data-url="/pages/form/form-driving-license/index">
-      <wxc-icon size="60" type="cart" color="#fb4747"></wxc-icon>
+      <view class="iconfont icon-xiche"></view>
       <view class="item-text">洗车服务</view>
     </view>
     <!-- <view class="nav-item nav-item-right">

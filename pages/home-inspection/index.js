@@ -26,31 +26,19 @@ Page({
       title: '检车下单',
       desc: '',
       slot: false,
-      url: '',
-      src: 'https://s10.mogucdn.com/mlcdn/c45406/170603_0ea73id6h6926k281cdhia0dg5gdg_38x38.png'
-    },{
-      title: '我的订单',
-      desc: '',
-      slot: false,
-      url: '',
-      src: 'https://s10.mogucdn.com/mlcdn/c45406/170603_0ea73id6h6926k281cdhia0dg5gdg_38x38.png'
-    },{
-      title: '我的车辆',
-      desc: '',
-      slot: false,
-      url: '',
+      url: '/pages/noData/index',
       src: 'https://s10.mogucdn.com/mlcdn/c45406/170603_0ea73id6h6926k281cdhia0dg5gdg_38x38.png'
     },{
       title: '上次检车标',
       desc: '',
       slot: false,
-      url: '',
+      url: '/pages/noData/index',
       src: 'https://s10.mogucdn.com/mlcdn/c45406/170603_0ea73id6h6926k281cdhia0dg5gdg_38x38.png'
     }, {
       title: '检车助手',
       desc: '',
       slot: false,
-      url: '',
+      url: '/pages/noData/index',
       src: 'https://s10.mogucdn.com/mlcdn/c45406/170603_0ea73id6h6926k281cdhia0dg5gdg_38x38.png'
     }]
   },

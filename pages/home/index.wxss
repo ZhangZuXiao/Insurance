@@ -83,3 +83,8 @@
   line-height: 50rpx;
   color: #999999;
 }
+
+.iconfont {
+  font-size: 55rpx;
+  color: #fb4747;
+}

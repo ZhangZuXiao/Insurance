@@ -1,0 +1,6 @@
+<!--pages/noData/index.wxml-->
+<view class="nodata-page">
+  <view class="nodata-vessel">
+    <image class="nodata-img" src="../../image/noData.jpg"></image>
+  </view>
+</view>

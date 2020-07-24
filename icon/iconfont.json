@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "107586",
+      "name": "代驾",
+      "font_class": "drive",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "479383",
+      "name": "保养",
+      "font_class": "baoyang",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "479457",
+      "name": "洗车",
+      "font_class": "xiche",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "759622",
+      "name": "车辆",
+      "font_class": "cheliang",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1119616",
+      "name": "swt-icon-检车站-01",
+      "font_class": "swticonjianchezhan01",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "1921441",
+      "name": "加油",
+      "font_class": "xinxinicon",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "2053182",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "4378579",
+      "name": "车辆保养",
+      "font_class": "filedicon_keepfit_",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "5881137",
+      "name": "车辆",
+      "font_class": "cheliang1",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "6077725",
+      "name": "车辆管理",
+      "font_class": "cheliangguanli",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "6488982",
+      "name": "下单",
+      "font_class": "xiadan",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "9223046",
+      "name": "盾牌",
+      "font_class": "dunpai",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "10458085",
+      "name": "车辆待办",
+      "font_class": "cheliangdaiban",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "11323761",
+      "name": "网点查询_壹米滴答",
+      "font_class": "wangdianchaxun",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "11808035",
+      "name": "费用管理",
+      "font_class": "feiyongguanli",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "13196673",
+      "name": "小助手-solid",
+      "font_class": "xiaozhushou-solid",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    }
+  ]
+}

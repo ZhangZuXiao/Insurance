@@ -7,7 +7,8 @@
     "pages/form/form-activation-card/index",
     "pages/form/form-check-site/index",
     "pages/login/index",
-    "pages/user/index"
+    "pages/user/index",
+    "pages/noData/index"
   ],
   "usingComponents": {
     "wxc-button": "../dist/packages/@minui/wxc-button/dist/index",
@@ -33,15 +34,21 @@
     "list": [
       {
         "pagePath": "pages/home/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_off.png"
       },
       {
         "pagePath": "pages/merchants/index",
-        "text": "商户信息"
+        "text": "商户信息",
+        "iconPath": "image/merchants.png",
+        "selectedIconPath": "image/merchants_off.png"
       },
       {
         "pagePath": "pages/user/index",
-        "text": "个人信息"
+        "text": "个人信息",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user_off.png"
       }
     ]
   },
